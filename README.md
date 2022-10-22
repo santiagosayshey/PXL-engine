@@ -1,2 +1,2 @@
-# Better-SFML
-Improving the SFML graphics library to better use in the development of 2D games. 
+# PXL-Engine
+Built off SFML to make 2D game development easier.
