@@ -1,12 +1,15 @@
 #include <SFML/Graphics.hpp>
 #include "src/engine/Sound.h"
+#include "test/Path.h"
 
 int main()
 {
     sf::RenderWindow* window = new sf::RenderWindow(sf::VideoMode(1920,1080),"Test");
     sf::Event e;
 
-    Sound* s = new Sound("test/hover.wav");
+    Path* p = new Path;
+
+    Sound* s = new Sound(p->hover_sound);
 
     while (window->isOpen())
 
