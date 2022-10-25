@@ -12,7 +12,7 @@ public:
     Path() {}
     ~Path() {}
 
-    path hover_sound = "hover.wav";
+    path hover_sound = "test/hover.wav";
 
 };
 
